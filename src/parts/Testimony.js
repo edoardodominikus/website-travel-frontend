@@ -12,7 +12,7 @@ export default class Testimony extends Component {
           <div className="row align-items-center">
             <div className="col" style={{marginRight: 60}}>
               <div className="testimonial-hero" style={{margin: `30px 0 0 30px`}}>
-                <img src={this.props.data.imageUrl} alt="Testimonial" className='position-absolute' style={{zIndex:2}}/>
+                <img src={`${process.env.REACT_APP_HOST}/${this.props.data.imageUrl}`} alt="Testimonial" className='position-absolute' style={{zIndex:2}}/>
                 <img src={TestimonyAccent} alt="Testimonial frame" className='position-absolute' style={{margin:`-30px 0 0 -30px`, zIndex:1}}/>
               </div>
             </div>
