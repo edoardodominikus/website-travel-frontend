@@ -1,9 +1,9 @@
 import React from 'react'
 import ImageHero from 'assets/images/img-hero.jpg'
 import ImageHeroFrame from 'assets/images/img-hero-frame.jpg'
-// import IconCities from 'assets/images/icons/icon-cities.svg'
-// import IconTraveler from 'assets/images/icons/icon-traveler.svg'
-// import IconTreasure from 'assets/images/icons/icon-treasure.svg'
+import IconCities from 'assets/images/icons/icon-cities.svg'
+import IconTraveler from 'assets/images/icons/icon-traveler.svg'
+import IconTreasure from 'assets/images/icons/icon-treasure.svg'
 import Button from 'elements/Button'
 import formatNumber from 'utills/formatNumber'
 import { Fade } from 'react-reveal'
@@ -44,19 +44,19 @@ export default class Hero extends React.Component {
                 
                 <div className="row" style={{marginTop:80}}> 
                     <div className="col-auto" style={{marginRight: 35}}>
-                        <img width="36" height="36" src='/assets/images/icon-traveler.svg' alt={`${this.props.data.travelers} Travelers`} />
+                        <img width="36" height="36" src={IconTraveler} alt={`${this.props.data.travelers} Travelers`} />
                         <h6 className="mt-3">
                             {formatNumber(this.props.data.travelers)} <span className="text-gray-500 font-weight-light">travelers</span>
                         </h6>
                     </div>
                     <div className="col-auto" style={{marginRight: 35}}>
-                        <img width="36" height="36" src='/assets/images/icon-treasure.svg' alt={`${this.props.data.treasures} Treasures`} />
+                        <img width="36" height="36" src={IconTreasure} alt={`${this.props.data.treasures} Treasures`} />
                         <h6 className="mt-3">
                             {formatNumber(this.props.data.treasures)} <span className="text-gray-500 font-weight-light">treasures</span>
                         </h6>
                     </div>
                     <div className="col-auto" >
-                        <img width="36" height="36" src="/assets/images/icon-cities.svg" alt={`${this.props.data.cities} Cities`} />
+                        <img width="36" height="36" src={IconCities} alt={`${this.props.data.cities} Cities`} />
                         <h6 className="mt-3">
                             {formatNumber(this.props.data.cities)} <span className="text-gray-500 font-weight-light">cities</span>
                         </h6>

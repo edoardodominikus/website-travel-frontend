@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import Header from 'parts/Header'
-import Hero from 'parts/Hero'
+import Hero from 'assets/images/icons/Hero'
 import MostPicked from 'parts/MostPicked'
 import Categories from 'parts/Categories'
 import Testimony from 'parts/Testimony'
