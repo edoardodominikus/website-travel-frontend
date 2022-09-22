@@ -3,7 +3,6 @@ import PageDetailTitle from "parts/PageDetailTitle";
 
 import React, { Component } from 'react'
 import { connect } from "react-redux";
-import ItemDetails from "../json/itemDetails.json";
 import FeaturedImage from "parts/FeaturedImage";
 import PageDetailDescription from "parts/PageDetailDescription";
 import BookingForm from "parts/BookingForm";
@@ -19,7 +18,7 @@ class DetailsPage extends Component {
         window.title = "Details Page";
         window.scrollTo(0,0);
         if(!this.props.page[this.props.match.params.id]){
-            this.props.fetchPage(`${process.env.REACT_APP_HOST}/api/v1/member/detail-page/${this.props.match.params.id}`, this.props.match.params.id)
+            this.props.fetchPage(`/detail-page/${this.props.match.params.id}`, this.props.match.params.id)
         }
     }
     render() {
