@@ -62,7 +62,8 @@ class Checkout extends Component {
   };
   render() {
     const {data} = this.state;
-    const { checkout } = this.props;
+    const { checkout,page,match } = this.props;
+    console.log(checkout)
     if (!checkout)
       return (
         <div className="container">
@@ -86,12 +87,14 @@ class Checkout extends Component {
           </div>
         </div>
       );
+
+
     const steps = {
       bookingInformation:{
         title: "Booking Information",
         description: "Please fill up the blank fields below",
         content:(
-          <BookingInformation data={data} checkout={checkout} ItemDetails={ItemDetails} onChange={this.onChange}/>
+          <BookingInformation data={data} checkout={checkout} ItemDetails={page[checkout._id]} onChange={this.onChange}/>
         )
       },
       payment:{
@@ -204,7 +207,8 @@ class Checkout extends Component {
 }
 
 const mapStatetoProps = (state) => ({
-  checkout: state.checkout
+  checkout: state.checkout,
+  page: state.page
 });
 
 export default connect(mapStatetoProps)(Checkout);
