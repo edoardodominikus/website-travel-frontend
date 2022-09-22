@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/website-travel-frontend/static/css/main.04cf0fa0.css",
+    "main.js": "/website-travel-frontend/static/js/main.70cc947a.js",
+    "static/js/787.696610b0.chunk.js": "/website-travel-frontend/static/js/787.696610b0.chunk.js",
+    "static/media/img-hero.jpg": "/website-travel-frontend/static/media/img-hero.98bc257e2822a530789f.jpg",
+    "static/media/completed.jpg": "/website-travel-frontend/static/media/completed.5a3498b3ed72793d360f.jpg",
+    "static/media/icon-treasure.svg": "/website-travel-frontend/static/media/icon-treasure.22bfa39fdbd23c9617bda9d2f927b768.svg",
+    "static/media/icon-cities.svg": "/website-travel-frontend/static/media/icon-cities.ffed29960a59c064d125510421312ba5.svg",
+    "static/media/star.svg": "/website-travel-frontend/static/media/star.9f0d919b2c63fde53882.svg",
+    "index.html": "/website-travel-frontend/index.html",
+    "static/media/icon-traveler.svg": "/website-travel-frontend/static/media/icon-traveler.63b43d51aef0277a72fdc82ee7f28895.svg",
+    "static/media/icon-calendar.svg": "/website-travel-frontend/static/media/icon-calendar.8fda962e0e9e5c4dc5992a244c63422c.svg",
+    "main.04cf0fa0.css.map": "/website-travel-frontend/static/css/main.04cf0fa0.css.map",
+    "main.70cc947a.js.map": "/website-travel-frontend/static/js/main.70cc947a.js.map",
+    "787.696610b0.chunk.js.map": "/website-travel-frontend/static/js/787.696610b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04cf0fa0.css",
+    "static/js/main.70cc947a.js"
+  ]
+}
