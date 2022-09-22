@@ -43,7 +43,7 @@ export default class Hero extends React.Component {
             </Button>
                 
                 <div className="row" style={{marginTop:80}}> 
-                    <div className="col-auto" style={{marginRight: 35}}>
+                    <div className="col-auto" style={{marginRight: 36}}>
                         <img width="36" height="36" src={IconTraveler} alt={`${this.props.data.travelers} Travelers`} />
                         <h6 className="mt-3">
                             {formatNumber(this.props.data.travelers)} <span className="text-gray-500 font-weight-light">travelers</span>
